@@ -12,7 +12,7 @@ def encode_image(image_path):
     return base64.b64encode(image_file.read()).decode('utf-8')
 
 
-image_folder = "/Users/dsteele/Documents/Clients/Group1/pics/"
+image_folder = ""
 
 output_csv = "output.csv"
 
